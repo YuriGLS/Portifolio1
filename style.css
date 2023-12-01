@@ -1,0 +1,329 @@
+:root{
+--cor--primaria: #f6f6f6;
+}
+
+
+
+body{
+    height: 100vh;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    width: 80.5rem;
+    background-color: black;
+}
+
+.flex_bar{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.links{
+    margin-left: 58.4375rem;
+    
+}
+
+.style_links{
+    color: var(--cor--primaria);
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 1.25rem;
+    margin-right: 0.625rem;
+    text-decoration: none;
+}
+
+.style_links:hover{
+    color: rgb(187, 187, 187);
+}
+
+.title{
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: var(--cor--primaria);
+}
+
+
+/* main */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 39.375rem;
+
+}
+
+.title_main{
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 200;
+    color: var(--cor--primaria);
+}
+
+.title_main2{
+    margin-top: -0.9375rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 200;
+    color: var(--cor--primaria);
+}
+
+.images{
+    width: 1.5625rem;
+    margin-right: 0.9375rem;
+}
+
+.background{
+    margin-left: -7.75rem;
+    margin-right: -7.75rem;
+    background-image: url(images/wallpapersden.com_the-snowy-mountain-in-forest_1600x900.jpg);
+    
+}
+
+/* about */
+
+.about{
+    margin-top: 6.25rem;
+    height: 25rem;
+    margin-left: -3.125rem;
+}
+
+.title_about{
+    color: var(--cor--primaria);
+    font-family: 'Vina Sans', sans-serif ;
+    font-weight: 200;
+    font-size: 3.125rem;
+    text-align: center;
+    margin-left: 3.125rem;
+}
+
+.flex_about{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.image_face{
+    width: 25rem;
+}
+
+.word_about{
+    color: var(--cor--primaria);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width: 800px;
+}
+
+
+/* projects */
+
+.projects{
+    margin-top: 15.625rem;
+    height: 500px;
+}
+
+.projects_title{
+    color: var(--cor--primaria);
+    font-family: 'Vina Sans', sans-serif;
+    font-weight: 200;
+    font-size: 3.125rem;
+    text-align: center;
+}
+
+
+/* card */
+
+.card1{
+    width: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    transition: .3s all ease;
+    font-size: 0px;
+    align-items: center;
+}
+
+.card1:hover{
+    flex:1.4;
+    background-color: white;
+    font-size: 0.9375rem;
+    border-radius: 0.625rem;
+}
+
+.image_card{
+    width: 15.625rem;
+    margin-top: 5px;
+}
+
+.paragraph{
+    color: black;
+    font-family:'Quicksand', sans-serif; 
+    text-align: center;
+}
+
+.title_card{
+    color: black;
+    font-family:'Vina Sans', sans-serif; 
+}
+
+.linkproject{
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: black;
+    text-decoration: none;
+    color: var(--cor--primaria);
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Vina Sans', sans-serif; 
+}
+
+.card_flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.25rem;
+}
+
+/* footer */
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 4%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0.9243346997001926) 82%);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem 0;
+    flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 0.625rem;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 0.625rem;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+
+.menu__link:hover {
+    opacity: 1;
+}
+
+.footer p {
+    color: #fff;
+    margin: 0.9375rem 0 0.625rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+
+@media (max-width: 380px) {
+body{
+    width: 23.75rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+
+}
+
+.title{
+    font-size: 2.5rem;
+}
+
+.flex_bar{
+   
+
+    width: 25rem;
+}
+
+.links{
+    margin-left: 2.8125rem;
+    
+}
+
+
+.image_face{
+    width: 11.25rem;
+    height: 7.5rem;
+}
+
+.word_about{
+    font-size: 0.8125rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width: 43.75rem;
+}
+
+.projects{
+    margin-top: -1.25rem;
+    height: 950px;
+}
+
+.card1{
+    margin-top: 60px;
+    width: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    transition: .3s all ease;
+    font-size: 0px;
+    align-items: center;
+}
+
+.card1:hover{
+    flex:1.4;
+    background-color: white;
+    font-size: 0.9375rem;
+    border-radius: 0.625rem;
+}
+
+.card_flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.25rem;
+    align-items: center;
+}
+
+
+
+}
