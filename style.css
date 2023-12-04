@@ -257,7 +257,7 @@ body{
 
 
 
-@media (max-width: 380px) {
+@media (max-width: 580px) {
 body{
     width: 23.75rem;
     margin-left: 6.25rem;
